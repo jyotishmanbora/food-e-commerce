@@ -294,7 +294,36 @@ h1{
         }
     }
 }
-@media only screen and (max-width:440px){
+
+@media only screen and (max-width:395px){
+    .mobile-nav{
+        padding: 2rem 1.5rem;
+    }
+    .content{
+        .hero-container{
+            padding: 1.3rem 1.5rem 1rem 1.5rem;
+        }
+        .products-carousel{
+            padding: 2rem 1.5rem;
+            .product-container{
+                padding: 1rem;
+                .image{
+                    height: 6rem;
+                    width: 6rem;
+                }
+                .product-name{
+                    margin-top: 1rem;
+                    font-size: 0.7rem;
+                }
+            }
+        }
+        .mobile-description{
+            padding: 0 1.5rem;
+        }
+    }
+}
+
+@media only screen and (max-width:335px){
     .content .products-carousel{
         justify-content: space-between;
     }
