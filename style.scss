@@ -300,6 +300,10 @@ h1{
     }
 }
 
+.body-toggle{
+    overflow-y: hidden;
+}
+
 @keyframes navLinkFade{
     from{
         opacity: 0;

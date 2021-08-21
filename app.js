@@ -57,6 +57,7 @@ const navLinks = document.querySelectorAll(".nav-links li");
 
 hamburger.addEventListener("click",()=>{
     document.querySelector(".navbar").classList.toggle("nav-active");
+    document.querySelector("body").classList.toggle("body-toggle");
 
     mobileNav.classList.toggle('toggle');
 
